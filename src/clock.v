@@ -25,7 +25,7 @@ module digit_bit(input rst, input srclk, input [3:0] digit, input [2:0] cnt, out
 endmodule
 
 
-module clock (input [7:0] io_in, output [7:0] io_out);
+module nikor_clock (input [7:0] io_in, output [7:0] io_out);
     localparam minutes = 32; // 32 cycles is needed to output to display
     wire clk, rst, min, hour;
     assign {hour, min, rst, clk} = io_in[3:0];
