@@ -7,7 +7,7 @@ project:
 # Source files must be in ./src and you must list each source file separately
   source_files:        
     - clock.v
-  top_module:  "clock"      # put the name of your top module here, make it unique by prepending your github username
+  top_module:  "nikor_clock"      # put the name of your top module here, make it unique by prepending your github username
 
 # Keep a track of the submission yaml
 yaml_version: 3.0
